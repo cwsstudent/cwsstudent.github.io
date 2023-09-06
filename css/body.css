@@ -1,0 +1,19 @@
+/*启用微软雅黑普通字体*/
+@font-face {
+    font-family: "yahei";
+    src :url("../font/msyh.ttc")
+}
+/*启用微软雅黑加粗字体*/
+@font-face {
+    font-family: "yahei_strong";
+    src: url("../font/msyhbd.ttc");
+}
+/*启用微软雅黑light字体*/
+@font-face {
+    font-family: "yahei_light";
+    src: url("../font/msyhl.ttc");
+}
+/*选择器*/
+.strong{font-family: "yahei_strong";}
+.light{font-family: "yahei_strong";}
+.yahei{font-family: "yahei";}
