@@ -7,25 +7,53 @@
         <link rel="icon" type="image/x-icon" href="ICO.ico"/>
         <link rel="stylesheet" type="test/css" href="css/body.css"/>
         <style>
-            html{background-color: #F2F2F2;}
+            html{background-color: silver;}
         </style>
+        <script>
+            window.onload=function(){
+                onselectstart=function(){
+                    return false;
+                }
+                oncontextmenu=function(){
+                    return false;
+                }
+            }
+        </script>
         <title>CWS海洋自然社团信息共享站</title>
     </head>
     <body>
         <div style="float: left; width: 1250px; height: 70px; background-color: white;">
-            <p class="yahei" style="line-height: 35px; text-indent: 15px;">
+            <p style="line-height: 35px; text-indent: 15px;" class="yahei">
                 <img src="img/Logo.jpg" width="25px" height="25px"/>&nbsp;CWS海洋自然社团
-                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                <select name="文章" class="yahei" style="text-decoration: none;">
-                    <option value="option1"><span class="yahei">文章</span></option>
-                    <option value="option2"><span class="yahei">科普</span></option>
-                    <option value="option3"><span class="yahei">小说</span></option>
-                </select>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;文章
                 &emsp;&emsp;&emsp;&emsp;&emsp;电台
                 &emsp;&emsp;&emsp;&emsp;&emsp;视频
                 &emsp;&emsp;&emsp;&emsp;&emsp;管理通知
-                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;社团纲领
+                &emsp;&emsp;&emsp;&emsp;&emsp;资讯
             </p>
+        </div>
+
+        <div style="float: left;width: 212px; height: 470px; background-color: white; margin-top: 10px;">
+            <p style="text-indent: 40px; line-height: 70px" class="yahei">关于我们</p>
+            <p style="text-indent: 40px; line-height: 70px" class="yahei">社团纲领</p>
+            <p style="text-indent: 40px; line-height: 70px" class="yahei">加入我们</p>
+            <p style="text-indent: 40px; line-height: 70px" class="yahei">编写须知</p>
+        </div>
+
+        <div style="position: relative;">
+            <div style="width: 1028px; height: 470px; background-color: white; 
+            position: absolute; top: 80px; left: 222px">
+                <h2 style="text-indent: 35px" class="strong">欢迎来到CWS海洋自然社团信息共享站</h2>
+                <p class="yahei" style="text-indent: 70px; line-height: 10px">
+                    CWS海洋自然社团是由青年学生开创的, 为反对任何国家以非正当理由进行非法排放核污水、保护海洋的非盈利组织。
+                    在这里你可以遇
+                </p>
+                <p class="yahei" style="text-indent: 35px; line-height: 10px">
+                    见很多志同道合的伙伴一起同你对保护海洋做出贡献。我们招收社会各界人士!</p>
+                </p>
+                &emsp;&emsp;<img src="img/CWStalk.jpg" width="150px" height="267px"/>
+                <span class="yahei">&emsp;&emsp;←这是我们的群二维码, 欢迎大家踊跃加入</span>
+            </div>
         </div>
     </body>
 </html>
